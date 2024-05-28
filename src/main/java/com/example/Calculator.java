@@ -2,6 +2,8 @@ package com.example;
 
 public class Calculator {
 
+    private Calculator() {}
+
     public static float add(float x, float y) {
         return x + y;
     }
